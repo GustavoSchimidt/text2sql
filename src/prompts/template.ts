@@ -1,5 +1,8 @@
-export function createSqlPromptTemplate(tableSchemas: string, question: string) {
-    const promptTemplate: string = `
+export function createSqlPromptTemplate(
+  tableSchemas: string,
+  question: string,
+): string {
+  const promptTemplate: string = `
     You are a MySQL expert.
     
     Please help to generate a MySQL query to answer the question. Your response should ONLY be based on the given context and follow the response guidelines and format instructions.
@@ -23,6 +26,6 @@ export function createSqlPromptTemplate(tableSchemas: string, question: string) 
     ===Question
     ${question}
     `;
-    
-    return promptTemplate;
+
+  return promptTemplate;
 }
