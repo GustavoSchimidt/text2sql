@@ -16,7 +16,7 @@ $ npm install
 ## Running the app
 Precisará obter uma chave de API da OpenAI para poder usar o GPT-3. Se você ainda não tem uma, vá para o site da OpenAI e inscreva-se para obter acesso à API.
 
-Depois de obter sua chave de API, crie um arquivo .env na raiz do seu projeto e adicione sua chave de API lá.
+Depois de obter sua chave de API, crie um arquivo .env na raiz do seu projeto e adicione sua chave de API lá de acordo com o env.example.
 
 ```bash
 # development
